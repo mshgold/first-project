@@ -1,0 +1,95 @@
+
+@import url(font-awesome.min.css);
+body{
+background-color: #444;
+
+}
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.nav ul li a{
+    color:rgba(255, 255, 255, .5);
+    transition: color .2s ease-in-out;
+}
+.header h1{
+float: left;
+}
+.nav{
+    text-align: right;
+}
+.nav ul li{
+    padding: 0 15px;
+    list-style-type: none;
+    display: inline;
+}
+.nav a:hover{
+    color: #fff;
+
+}
+.top-menu{
+    padding: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.5vw;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-gray{
+    background-color: #fff;
+    color: #444!important;
+}
+.btn-big{
+    font-size: 2.5vw!important;
+}
+.btn-blue{
+    background-color:#3cadd4 ;
+    color: #fff;
+}
+.btn-dark{
+    background-color:#383b43 ;
+    color: #ffffff;
+}
+
+.header{
+    background-image:url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.baner-content{
+    text-align: center;
+    color: #fff;
+    padding: 200px 0;
+}
+.baner-content h2{
+    font-size: 5vw;
+    line-height: 130px;
+}
+.baner-content p{
+    font-size: 2.5vw;
+    margin-bottom: 20px;
+}
+.services{
+    background-color: #f5f5f5;
+    border-bottom: 2px solid rgba(144, 144, 144, .25);
+    border-top: 2px solid rgba(144, 144, 144, .25);
+    padding: 100px;
+    text-align: center;
+
+}
+.services h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:rgb(14 13 13 / 69%) ;
+}
+.services p{
+    font-size: 25px;
+}
